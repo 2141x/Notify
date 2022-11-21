@@ -211,7 +211,7 @@ function prompt(title, text, closeTime, close)
 
 	Prompt.Parent = NotificationParent
 	Sound.SoundId = "rbxassetid://6518811702"
-  Sound.Volume = 10
+  Sound.Volume = 20
 	Sound:Play()
 
 	T:Create(Prompt.Container, t, {Position = UDim2.new(0, 0, 0, 0)}):Play()
