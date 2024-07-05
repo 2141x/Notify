@@ -58,5 +58,4 @@ workspace.DescendantAdded:Connect(function(child)
     end)
 end)
 
---> marks game as optimized
-_G.OPTIMIZED_GRAPHICS = true
+
