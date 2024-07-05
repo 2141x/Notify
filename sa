@@ -71,4 +71,3 @@ local disableDecals = true
 		elseif (descendant:IsA("Shirt") or descendant:IsA("Pants")) and disableDecals then
 			descendant[descendant.ClassName .. "Template"] = 0
 		end
-	end)
