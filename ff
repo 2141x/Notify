@@ -1,10 +1,4 @@
 
-for _,x in ipairs(game:GetDescendants()) do if x.Name == 'Meshes/mountain' then x:Destroy() end end
-for _,x in ipairs(workspace.Ignored:GetChildren()) do if x.Name == 'HouseOwn' or x.Name == 'Folder' or x.Name == 'HouseItemSale' or x.Name == 'ItemsDrop' then x:Destroy() end end
-for _,x in ipairs(workspace.MAP.Map:GetChildren()) do if x.ClassName == 'Model' then x:Destroy() end end
-for _,x in ipairs(workspace.MAP.Indestructible:GetChildren()) do if x.ClassName == 'Model' then x:Destroy() end end
-for _,x in ipairs(workspace:GetDescendants()) do if x.Name == 'print' then x:Destroy() end end
-for _,x in ipairs(workspace:GetDescendants()) do if x.Name == 'Image Ad Unit 2' then x:Destroy() end end
 for _,x in ipairs(workspace:GetDescendants()) do if x:IsA('Accessory') then x:Destroy() end end
 for _,x in ipairs(workspace:GetDescendants()) do if x:IsA('Decal') then x:Destroy() end end
 for _,x in ipairs(workspace:GetDescendants()) do if x:IsA('ShirtGraphic') then x:Destroy() end end
