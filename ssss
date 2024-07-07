@@ -513,7 +513,7 @@ local function Initiate()
 					BringPlr(FoundPlayer,nil)
 				end
 			elseif Message == ".setup bank" then
-				Setup("Bank")
+				getgenv().Alts[1].Character.HumanoidRootPart.CFrame = CFrame.new(-222, -27, 157)
             elseif Message == ".setup db1v1" then
 				Setup("DB1V1")
 			elseif Message == ".setup admin" then
