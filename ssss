@@ -247,9 +247,9 @@ local BringLocations = {
 local SetupsTable = {
 	Bank = {
 		Origin = CFrame.new(-375.165894, 600.030701, -328.654877, 0.99999541, -4.79042761e-08, -0.0030301821, 4.80220876e-08, 1, 3.88065473e-08, 0.0030301821, -3.89518853e-08, 0.99999541)*CFrame.new(0,0,-3),
-		ZMultiplier = 3,
-		XMultiplier = 8,
-		PerRow = 10,
+		ZMultiplier = 5,
+		XMultiplier = 10,
+		PerRow = 12,
 		Rows = 4,
 
     },
